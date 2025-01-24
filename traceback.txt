@@ -1,0 +1,34 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 84, in script call
+    call r_a_a
+  File "game/r_a_a.rpy", line 6, in script call
+    call End_T2_a_a_a
+  File "game/script.rpy", line 84, in script call
+    call r_a_a
+  File "game/r_a_a.rpy", line 6, in script call
+    call End_T2_a_a_a
+ScriptError: could not find label 'End_T2_a_a_a'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 84, in script call
+    call r_a_a
+  File "game/r_a_a.rpy", line 6, in script call
+    call End_T2_a_a_a
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\ast.py", line 1414, in execute
+    rv = renpy.game.context().call(label, return_site=self.next.name)
+  File "game/script.rpy", line 84, in script call
+    call r_a_a
+  File "game/r_a_a.rpy", line 6, in script call
+    call End_T2_a_a_a
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\script.py", line 1103, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'End_T2_a_a_a'.
+
+Windows-10-10.0.22631 AMD64
+Ren'Py 8.3.1.24090601
+VisualNovel_Programming 1.0
+Fri Jan 24 10:55:41 2025
