@@ -1,34 +1,26 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "game/script.rpy", line 84, in script call
-    call r_a_a
-  File "game/r_a_a.rpy", line 6, in script call
-    call End_T2_a_a_a
-  File "game/script.rpy", line 84, in script call
-    call r_a_a
-  File "game/r_a_a.rpy", line 6, in script call
-    call End_T2_a_a_a
-ScriptError: could not find label 'End_T2_a_a_a'.
+While loading the script.
+ScriptError: Name ('game/ENDT2.rpy', 1737683721, 0) is defined twice, at game/ENDT2.rpy:2 and game/ENDT2.rpy:2.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 84, in script call
-    call r_a_a
-  File "game/r_a_a.rpy", line 6, in script call
-    call End_T2_a_a_a
-  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\ast.py", line 1414, in execute
-    rv = renpy.game.context().call(label, return_site=self.next.name)
-  File "game/script.rpy", line 84, in script call
-    call r_a_a
-  File "game/r_a_a.rpy", line 6, in script call
-    call End_T2_a_a_a
-  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\script.py", line 1103, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'End_T2_a_a_a'.
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\bootstrap.py", line 359, in bootstrap
+    renpy.main.main()
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\main.py", line 470, in main
+    renpy.game.script.load_script() # sets renpy.game.script.
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\script.py", line 359, in load_script
+    self.load_appropriate_file(".rpyc", [ "_ren.py", ".rpy" ], dir, fn, initcode)
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\script.py", line 957, in load_appropriate_file
+    self.finish_load(stmts, initcode, filename=lastfn) # type: ignore
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\script.py", line 590, in finish_load
+    check_name(node)
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\script.py", line 566, in check_name
+    raise ScriptError("Name %s is defined twice, at %s:%d and %s:%d." %
+ScriptError: Name ('game/ENDT2.rpy', 1737683721, 0) is defined twice, at game/ENDT2.rpy:2 and game/ENDT2.rpy:2.
 
 Windows-10-10.0.22631 AMD64
 Ren'Py 8.3.1.24090601
-VisualNovel_Programming 1.0
-Fri Jan 24 10:55:41 2025
+ 
+Fri Jan 24 11:37:33 2025
