@@ -87,3 +87,5 @@ label read_uesugi:
 label read_summer:
     koji "『真夏の夜の夢』か。いいね、これにしよう。"
     return
+
+
