@@ -1,15 +1,17 @@
 ﻿# script.rpy
 
-# 必要な情報を初期化
-label start:
-    # タイトル画面から開始
-    "ゲームが始まりました！"
-    return
-
 # 必要なキャラクターを定義
 define koji = Character("浩二", color="#AABBFF")
 define shiori = Character("詩織", color="#FFBBAA")
 define baba = Character("婆", color="#CCCC99")
+
+# 必要な情報を初期化
+label start:
+    # タイトル画面から開始
+    "ゲームが始まりました！"
+    jump prologue
+    return
+
 
 # プロローグ
 label prologue:
