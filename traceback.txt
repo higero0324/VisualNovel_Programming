@@ -23,4 +23,4 @@ ScriptError: Name ('game/ENDT2.rpy', 1737683721, 0) is defined twice, at game/EN
 Windows-10-10.0.22631 AMD64
 Ren'Py 8.3.1.24090601
  
-Fri Jan 24 11:38:03 2025
+Fri Jan 24 11:40:07 2025
