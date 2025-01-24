@@ -5,15 +5,17 @@ label start:
     # タイトル画面から開始
     return
 
-# プロローグ
-label prologue:
-    scene bg room with fade
-    # 必要なキャラクターを定義
+# 必要なキャラクターを定義
 define koji = Character("浩二", color="#AABBFF")
 define shiori = Character("詩織", color="#FFBBAA")
 define baba = Character("婆", color="#CCCC99")
 
-label start:
+# プロローグ
+label prologue:
+    scene bg room with fade
+    # 必要なキャラクターを定義
+
+label prologue:
     # ゲーム開始
     scene bg bookstore with fade
     koji "ここは商店街の一角にある本屋。商店街といっても賑わいとは程遠いものである。"
