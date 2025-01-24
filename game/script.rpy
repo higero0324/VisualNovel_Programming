@@ -12,11 +12,6 @@ define baba = Character("婆", color="#CCCC99")
 
 # プロローグ
 label prologue:
-    scene bg room with fade
-    # 必要なキャラクターを定義
-
-label prologue:
-    # ゲーム開始
     scene bg bookstore with fade
     koji "ここは商店街の一角にある本屋。商店街といっても賑わいとは程遠いものである。"
     koji "今となっては商店もほとんど畳まれていて、ただシャッターが連なる場所となった。"
