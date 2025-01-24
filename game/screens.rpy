@@ -1621,3 +1621,13 @@ style slider_vbox:
 style slider_slider:
     variant "small"
     xsize 900
+
+screen choice(items):
+    window:
+        style "menu_window"
+
+        vbox:
+            for i in items:
+                button:
+                    action i.action
+                    text i.caption

@@ -116,6 +116,8 @@ define config.window = "auto"
 
 define config.window_show_transition = Dissolve(.2)
 define config.window_hide_transition = Dissolve(.2)
+define gui.window_background = "#0008"  # テキストウィンドウの背景色
+define gui.text_color = "#FFFFFF"       # テキストの色
 
 
 ## 環境設定のデフォルト ##################################################################
