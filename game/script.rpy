@@ -150,12 +150,12 @@ label r_aaaad:
     jump r_aaaad2
 
 label r_aaaad2:
-    default true =0
+    default true = 0
     koji"なるほど"
     menu:
         "兄妹が主人公の物語か":
             koji"兄妹が主人公の物語か"
-            $true += 1
+            $ true += 1
         "あざらしの尻尾を使った大道芸か":
             koji"あざらしの尻尾を使った大曲芸か"
 
@@ -163,7 +163,7 @@ label r_aaaad2:
     menu:
         "老人の教えのもと剣術、銃術、詐術を鍛えた":
             koji"老人の教えのもと剣術、銃術、詐術を鍛えた"
-            $true += 1
+            $ true += 1
         "ガンジーの教えのもと塩の行進をした":
             koji"ガンジーの教えのもと塩の行進をした"
 
@@ -173,7 +173,7 @@ label r_aaaad2:
             koji"伯爵の食事をまろやかにした"
         "伯爵の悪事をあきらかにした":
             koji"伯爵の悪事をあきらかにした"
-            $true += 1
+            $ true += 1
             
     $ if true == 3:
     jump r_T
