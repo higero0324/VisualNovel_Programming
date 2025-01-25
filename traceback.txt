@@ -1,26 +1,26 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading the script.
-ScriptError: Name ('game/ENDT2.rpy', 1737683721, 0) is defined twice, at game/ENDT2.rpy:2 and game/ENDT2.rpy:2.
+After loading the script.
+PermissionError: [WinError 5] アクセスが拒否されました。: 'C:\\Users\\shitt\\OneDrive\\ドキュメント\\VisualNovel_Programming\\VisualNovel_Programming\\game\\saves\\navigation.json'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
   File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\bootstrap.py", line 359, in bootstrap
     renpy.main.main()
-  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\main.py", line 470, in main
-    renpy.game.script.load_script() # sets renpy.game.script.
-  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\script.py", line 359, in load_script
-    self.load_appropriate_file(".rpyc", [ "_ren.py", ".rpy" ], dir, fn, initcode)
-  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\script.py", line 957, in load_appropriate_file
-    self.finish_load(stmts, initcode, filename=lastfn) # type: ignore
-  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\script.py", line 590, in finish_load
-    check_name(node)
-  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\script.py", line 566, in check_name
-    raise ScriptError("Name %s is defined twice, at %s:%d and %s:%d." %
-ScriptError: Name ('game/ENDT2.rpy', 1737683721, 0) is defined twice, at game/ENDT2.rpy:2 and game/ENDT2.rpy:2.
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\main.py", line 529, in main
+    if renpy.parser.report_parse_errors():
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\parser.py", line 1791, in report_parse_errors
+    renpy.display.error.report_parse_errors(full_text, error_fn)
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\display\error.py", line 177, in report_parse_errors
+    error_dump()
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\display\error.py", line 86, in error_dump
+    renpy.dump.dump(True)
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\dump.py", line 260, in dump
+    os.unlink(filename)
+PermissionError: [WinError 5] アクセスが拒否されました。: 'C:\\Users\\shitt\\OneDrive\\ドキュメント\\VisualNovel_Programming\\VisualNovel_Programming\\game\\saves\\navigation.json'
 
 Windows-10-10.0.22631 AMD64
 Ren'Py 8.3.1.24090601
- 
-Fri Jan 24 12:10:03 2025
+VisualNovel_Programming 1.0
+Sat Jan 25 16:35:23 2025
