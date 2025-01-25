@@ -86,11 +86,13 @@ label post_reaction:
 label read_uesugi:
     koji "よし、『上杉鷹山伝』を読もう。"
     call r_aa
+    jump r_aaa
     return
 
 label read_summer:
     koji "『真夏の夜の夢』か。いいね、これにしよう。"
     call r_ab
+    jump r_aaa
     return
 
 # ルートaaa
