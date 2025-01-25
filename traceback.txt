@@ -1,26 +1,24 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-After loading the script.
-PermissionError: [WinError 5] アクセスが拒否されました。: 'C:\\Users\\shitt\\OneDrive\\ドキュメント\\VisualNovel_Programming\\VisualNovel_Programming\\game\\saves\\navigation.json'
+While running game code:
+  File "game/script.rpy", line 124, in script
+    楓原"待つでござる。お主GeoGebraで複素数平面を扱う方法を知ってるでござるか？"
+Exception: Sayer '楓原' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\bootstrap.py", line 359, in bootstrap
-    renpy.main.main()
-  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\main.py", line 529, in main
-    if renpy.parser.report_parse_errors():
-  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\parser.py", line 1791, in report_parse_errors
-    renpy.display.error.report_parse_errors(full_text, error_fn)
-  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\display\error.py", line 177, in report_parse_errors
-    error_dump()
-  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\display\error.py", line 86, in error_dump
-    renpy.dump.dump(True)
-  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\dump.py", line 260, in dump
-    os.unlink(filename)
-PermissionError: [WinError 5] アクセスが拒否されました。: 'C:\\Users\\shitt\\OneDrive\\ドキュメント\\VisualNovel_Programming\\VisualNovel_Programming\\game\\saves\\navigation.json'
+  File "game/script.rpy", line 124, in script
+    楓原"待つでござる。お主GeoGebraで複素数平面を扱う方法を知ってるでござるか？"
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\ast.py", line 2573, in execute
+    Say.execute(self)
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\ast.py", line 575, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\ast.py", line 464, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer '楓原' is not defined.
 
 Windows-10-10.0.22631 AMD64
 Ren'Py 8.3.1.24090601
 VisualNovel_Programming 1.0
-Sat Jan 25 16:35:23 2025
+Sun Jan 26 00:27:43 2025

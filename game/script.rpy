@@ -4,6 +4,7 @@
 define koji = Character("浩二", color="#AABBFF")
 define shiori = Character("詩織", color="#FFBBAA")
 define baba = Character("婆", color="#CCCC99")
+define kazuha = Character("楓原？", color="#ffffff")
 
 # 必要な情報を初期化
 label start:
@@ -24,7 +25,9 @@ label prologue:
     "なんならスマートフォンで本を読めるからわざわざ買いに行くこともないという人もいる。"
 
     "そんなわけで逆風真っ只中の我が本屋は今日も閑散としている。悲しいかな。"
+    jump prologue2
 
+label prologue2:
     koji "ばあちゃん、その話を何回したら気が済むんだよ。"
     baba "わしがこの話をしたのはこれが初めてじゃよ。"
     koji "そんなことない。昨日も同じことを言ってた。"
@@ -121,14 +124,14 @@ label r_aaa:
             koji"おかしい。本にはJKにおすすめって書いてるのに..."
             shiori"そのJKって女子高生じゃなくて情報系高専生の略だと思う..."
             koji"そっかぁ"
-            楓原"待つでござる。お主GeoGebraで複素数平面を扱う方法を知ってるでござるか？"
+            kazuha"待つでござる。お主GeoGebraで複素数平面を扱う方法を知ってるでござるか？"
             koji"そうだけど。"
-            楓原"誠か？拙者にも教えるでござる。"
+            kazuha"誠か？拙者にも教えるでござる。"
             koji"いいよ。"
             "楓原と名乗るものにGeoGebraで複素数平面を扱う方法を教えた。"
             "熱心に教えていたために途中で詩織が帰ったことに気づかなかった。"
             koji"（明日は別の話題をするか）"
-            楓原"助かったでござる。これで明日のレポートもばっちりでござる。"
+            kazuha"助かったでござる。これで明日のレポートもばっちりでござる。"
             koji"どういたしまして（？）"
             jump r_aaa
 
