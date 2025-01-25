@@ -13,7 +13,6 @@ label start:
     jump prologue
     return
 
-
 # プロローグ
 label prologue:
     scene bg bookstore with fade
@@ -176,8 +175,10 @@ label r_aaaad2:
             $ score += 1
             
     if score == 3:
+        $ score = 0
         jump r_T
     elif score == 2 or score == 1:
+        $ score = 0
         jump r_A
-    elif score == 0:
+    else:
         jump r_F
