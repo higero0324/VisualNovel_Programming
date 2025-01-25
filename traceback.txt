@@ -1,24 +1,28 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 124, in script
-    楓原"待つでござる。お主GeoGebraで複素数平面を扱う方法を知ってるでござるか？"
-Exception: Sayer '楓原' is not defined.
+  File "game/script.rpy", line 178, in script
+    if true == 3:
+SyntaxError: invalid syntax (game/script.rpy, line 180)
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 124, in script
-    楓原"待つでござる。お主GeoGebraで複素数平面を扱う方法を知ってるでござるか？"
-  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\ast.py", line 2573, in execute
-    Say.execute(self)
-  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\ast.py", line 575, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\ast.py", line 464, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer '楓原' is not defined.
+  File "game/script.rpy", line 178, in script
+    if true == 3:
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\ast.py", line 1843, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\python.py", line 1207, in py_eval
+    code = py_compile(code, 'eval')
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\python.py", line 1144, in py_compile
+    raise e
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\python.py", line 1081, in py_compile
+    raise orig_e
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\python.py", line 1073, in py_compile
+    tree = compile(source, filename, py_mode, ast.PyCF_ONLY_AST | flags, 1)
+SyntaxError: invalid syntax (game/script.rpy, line 180)
 
 Windows-10-10.0.22631 AMD64
 Ren'Py 8.3.1.24090601
 VisualNovel_Programming 1.0
-Sun Jan 26 00:27:43 2025
+Sun Jan 26 00:52:35 2025

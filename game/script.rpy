@@ -174,10 +174,10 @@ label r_aaaad2:
         "伯爵の悪事をあきらかにした":
             koji"伯爵の悪事をあきらかにした"
             $true += 1
-
-if true == 3:
+            
+    if true == 3:
     jump r_T
-elif true == 2 of true == 1:
+    elif true == 2 of true == 1:
     jump r_A
-elif true == 0:
+    elif true == 0:
     jump r_F
