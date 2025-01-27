@@ -1,4 +1,4 @@
-label start:
+label r_F:
 
     scene bg bookstore
     show shiori normal at center
