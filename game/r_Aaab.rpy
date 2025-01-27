@@ -30,12 +30,12 @@ label topic_yesterday:
     # Add more dialogue and actions here
     shiori"てーさいとで見かけた？人違いじゃないかな？"
     menu:
-        koji"＞そうかな？":
-            shiori"そうかな？"
+        "＞そうかな？":
+            koji"そうかな？"
             "会話は弾まなかった"
 
-        koji"＞そうかも":
-            shiori"そうかも"
+        "＞そうかも":
+            koji"そうかも"
             "会話は弾まなかった"
     jump topic_flower
 
