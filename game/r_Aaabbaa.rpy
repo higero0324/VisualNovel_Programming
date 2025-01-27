@@ -1,4 +1,4 @@
-label start:
+label r_Aaabbaa:
     scene bg_room_day
 
     shiori "それじゃ探しますかー"
