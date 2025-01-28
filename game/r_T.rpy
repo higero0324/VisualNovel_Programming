@@ -33,6 +33,12 @@ label r_T:
 
     show True end with fade
 
+    window hide
+
+    pause
+
+    window show
+
     "Route Front Side"
 
     return

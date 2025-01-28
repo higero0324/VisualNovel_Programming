@@ -16,4 +16,12 @@ label r_Aend2:
 
     show Aend2 with fade
 
+    window hide
+
+    pause
+
+    window show
+
     "Route Lunatic Princess"
+
+    return

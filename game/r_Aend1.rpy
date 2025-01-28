@@ -123,5 +123,11 @@ label r_Aend1:
 
     show Aend1 with fade
 
+    window hide
+
+    pause
+
+    window show
+
     "Route Escaping Reality"
     return
