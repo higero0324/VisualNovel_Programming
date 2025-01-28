@@ -11,6 +11,9 @@ image shiori troubled = "shiori t.png"
 image shiori astonished = "shiori a.png"
 image baba = "baba.png"
 image baba happy= "baba h.png"
+image Aend1 = "A end 1.png"
+image Aend2 = "A end 2.png"
+image True end = "True end.png"
 
 # 必要な情報を初期化
 label start:
