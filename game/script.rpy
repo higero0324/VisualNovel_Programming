@@ -20,6 +20,8 @@ image bookstore = "_used_bookstore_1.jpg"
 label start:
     # タイトル画面から開始
     "ゲームが始まりました！"
+    hide shiori
+    hide baba
     jump prologue
     return
 
@@ -38,6 +40,7 @@ label prologue:
 
 label prologue2:
     koji "ばあちゃん、その話を何回したら気が済むんだよ。"
+    show baba
     baba "わしがこの話をしたのはこれが初めてじゃよ。"
     koji "そんなことない。昨日も同じことを言ってた。"
     baba "そうかの？"
@@ -53,10 +56,13 @@ label prologue2:
     # 詩織登場
     "すいません～"
     koji "はい、どうされましたか？"
+    show baba at right
+    show shiori at left
     shiori "この本を買いたいのですが。"
     koji "でしたらお代金1260円です。"
     shiori "じゃあこれで。"
     koji "1260円ちょうどですね、毎度ありがとうございます。"
+    hide shiori
 
     "彼女は買った本を抱えて帰路についた。"
 
@@ -71,15 +77,18 @@ label prologue2:
 
 label deny:
     koji "そんなことないって！違うって！"
+    show baba happy
     baba "焦っとる焦っとる。お熱ですねぇ。"
     jump post_reaction
 
 label agree:
     koji "全く君ってやつは！"
+    show baba happy
     baba "お熱ですねぇ。"
     jump post_reaction
 
 label post_reaction:
+    hide baba
     "ばあちゃんはそういって奥に入っていった。"
     koji "さっき赤面していたのは言うまでもない、僕は詩織に惚れているからである。"
     "時間があるときは詩織と2人で話をする。とはいえ僕はここ数年本屋の営業しかしていないから話題はもっぱら本のことである。"
@@ -110,12 +119,14 @@ label read_summer:
 # ルートaaa
 label r_aa2:
     koji"すいません。お話しませんか？"
+    show shiori
     shiori"ええ、いいですよ。"
     "後先考えずにとりあえず声を掛けてみた。"
     "しかし、ここから先のことは一切ノープランである。"
     jump r_aaa
 
 label r_aaa:
+    show shiori
     koji"(何を話そうか？)"
     menu:
         "＞詩織が今読んでいる本について":
@@ -123,16 +134,20 @@ label r_aaa:
         "＞昨今の国際情勢について":
             "昨今の国際情勢についての意見を交わした。"
             koji"やはり今こそ唯一の被爆国である日本が橋渡しとなり国際平和を実現させるべきである。"
+            show shiori astonished
             shiori"..." 
             "が話は弾まなかった。別の話題に変えるべきだろう。"
             jump r_aaa
         "＞GeoGebraで複素数平面を扱う方法について":
             "詩織にGeoGebraで複素数平面を扱う方法を教えた。"
+            show shiori troubled
             shiori"？？？" 
             "詩織は混乱した！"
             koji"おかしい。本にはJKにおすすめって書いてるのに..."
+            show shiori
             shiori"そのJKって女子高生じゃなくて情報系高専生の略だと思う..."
             koji"そっかぁ"
+            hide shiori
             kazuha"待つでござる。お主GeoGebraで複素数平面を扱う方法を知ってるでござるか？"
             koji"そうだけど。"
             kazuha"誠か？拙者にも教えるでござる。"
@@ -145,20 +160,26 @@ label r_aaa:
             jump r_aaa
 
 label r_aaaad:
+    show shiori happy
     shiori"『二銃士』、これはとある復讐劇についての物語なの。"
+    show shiori 
     shiori"伯爵と女中の私生児であるアイリスとチューリップの兄妹は、幼い頃から人に疎まれて育ってきた。"
+    show shiori troubled
     shiori"二人が十歳の時、家に帰ると、母親が部屋の中で倒れていた。"
     shiori"犯人は明らかに伯爵の家族だったが、伯爵の力は強大で、事件は最終的に自殺と認定された。"
+    show shiori 
     shiori"二人は屋敷を逃げ出して将来の復讐を誓った。"
     shiori"ある老人が二人を弟子として受け入れ、剣術、銃術、詐術を教えた。"
     shiori"数年後、伯爵の家族は次々と銃で殺され、どの死体には満開のレインボーローズが添えられていたが、"
     shiori"それは亡くなった母親が一番好きな花だった。"
     shiori"伯爵は女中の亡霊が復讐しに来たのだと思ったが、その正体は銃士となった二人の兄妹だった。"
+    show shiori happy
     shiori"彼らは自力で手がかりと証拠を集め、伯爵への復讐を果たし、母親の死の真相を世間に知らしめた。"
     "詩織は熱心に語っていた。"
     jump r_aaaad2
 
 label r_aaaad2:
+    show shiori
     default score = 0
     koji"なるほど"
     menu:
