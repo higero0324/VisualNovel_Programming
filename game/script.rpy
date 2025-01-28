@@ -57,16 +57,14 @@ label prologue2:
     # 詩織登場
     "すいません～"
     koji "はい、どうされましたか？"
-    show baba at right
+    show baba at right_center
     show shiori at left
     shiori "この本を買いたいのですが。"
     koji "でしたらお代金1260円です。"
     shiori "じゃあこれで。"
     koji "1260円ちょうどですね、毎度ありがとうございます。"
     hide shiori
-    show baba:
-        pos (0.5, 0.5) 
-        xyanchor (0.5, 0.5) 
+    show baba at truecenter
 
     "彼女は買った本を抱えて帰路についた。"
 

@@ -1,32 +1,48 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "game/script.rpy", line 60, in script
-    show baba at leftcenter
-  File "game/script.rpy", line 60, in <module>
-    show baba at leftcenter
-NameError: name 'leftcenter' is not defined
+Compiling ATL code at game/script.rpy:69
+  File "game/script.rpy", line 67, in script
+    show baba:
+  File "game/script.rpy", line 69, in <module>
+    xyanchor (0.5, 0.5)
+NameError: name 'xyanchor' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 60, in script
-    show baba at leftcenter
+  File "game/script.rpy", line 67, in script
+    show baba:
   File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\ast.py", line 1111, in execute
     show_imspec(self.imspec, atl=getattr(self, "atl", None))
-  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\ast.py", line 1070, in show_imspec
-    at_list = [ renpy.python.py_eval(i) for i in at_list ]
-  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\ast.py", line 1070, in <listcomp>
-    at_list = [ renpy.python.py_eval(i) for i in at_list ]
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\ast.py", line 1074, in show_imspec
+    renpy.config.show(name,
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\exports\displayexports.py", line 503, in show
+    sls.add(layer, img, key, zorder, behind, at_list=at_list, name=name, atl=atl, default_transform=default_transform, transient=transient)
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\display\scenelists.py", line 477, in add
+    thing.visit_all(lambda d : None)
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\display\displayable.py", line 424, in visit_all
+    for d in self.visit():
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\atl.py", line 816, in visit
+    block = self.compile()
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\atl.py", line 723, in compile
+    block = self.atl.compile(self.context)
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\atl.py", line 925, in compile
+    statements = [ i.compile(ctx) for i in self.statements ]
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\atl.py", line 925, in <listcomp>
+    statements = [ i.compile(ctx) for i in self.statements ]
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\atl.py", line 1231, in compile
+    child = ctx.eval(expr)
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\atl.py", line 387, in eval
+    return renpy.python.py_eval(expr, locals=self.context)
   File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\python.py", line 1209, in py_eval
     return py_eval_bytecode(code, globals, locals)
   File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\python.py", line 1202, in py_eval_bytecode
     return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 60, in <module>
-    show baba at leftcenter
-NameError: name 'leftcenter' is not defined
+  File "game/script.rpy", line 69, in <module>
+    xyanchor (0.5, 0.5)
+NameError: name 'xyanchor' is not defined
 
 Windows-10-10.0.22631 AMD64
 Ren'Py 8.3.1.24090601
 VisualNovel_Programming 1.0
-Tue Jan 28 23:33:26 2025
+Tue Jan 28 23:40:04 2025
