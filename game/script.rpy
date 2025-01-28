@@ -65,6 +65,7 @@ label prologue2:
     shiori "じゃあこれで。"
     koji "1260円ちょうどですね、毎度ありがとうございます。"
     hide shiori
+    show baba at center
 
     "彼女は買った本を抱えて帰路についた。"
 
@@ -121,7 +122,7 @@ label read_summer:
 # ルートaaa
 label r_aa2:
     koji"すいません。お話しませんか？"
-    show shiori
+    show shiori at center
     shiori"ええ、いいですよ。"
     "後先考えずにとりあえず声を掛けてみた。"
     "しかし、ここから先のことは一切ノープランである。"
