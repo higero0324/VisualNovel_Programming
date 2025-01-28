@@ -11,6 +11,7 @@ image shiori = im.Composite((500, 900), (0, 0), "shiori.png")
 image shiori happy = im.Composite((500, 900), (0, 0), "shiori_h.png")
 image shiori troubled = im.Composite((500, 900), (0, 0), "shiori_t.png")
 image shiori astonished = im.Composite((500, 900), (0, 0), "shiori_a.png")
+image shiori astonished2 = im.Composite((500, 900), (0, 0), "shiori_a2.png")
 image baba = "baba.png"
 image baba happy= "baba_h.png"
 image Aend1 = "A end 1.png"
