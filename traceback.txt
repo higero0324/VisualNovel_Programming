@@ -1,26 +1,28 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 20, in script
-    init python:
-  File "game/script.rpy", line 21, in <module>
-    renpy.image("shiori", im.Scale("shiori.png", 250, 800), yalign=1.0)
-TypeError: image() got an unexpected keyword argument 'yalign'
+  File "game/script.rpy", line 10, in script
+    image shiori = im.Composite((250, 800), (0, 0, "shiori.png"))
+  File "game/script.rpy", line 10, in <module>
+    image shiori = im.Composite((250, 800), (0, 0, "shiori.png"))
+Exception: Composite requires an odd number of arguments.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 20, in script
-    init python:
-  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\ast.py", line 821, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\python.py", line 1178, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/script.rpy", line 21, in <module>
-    renpy.image("shiori", im.Scale("shiori.png", 250, 800), yalign=1.0)
-TypeError: image() got an unexpected keyword argument 'yalign'
+  File "game/script.rpy", line 10, in script
+    image shiori = im.Composite((250, 800), (0, 0, "shiori.png"))
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\ast.py", line 920, in execute
+    img = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 10, in <module>
+    image shiori = im.Composite((250, 800), (0, 0, "shiori.png"))
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\display\im.py", line 899, in __init__
+    raise Exception("Composite requires an odd number of arguments.")
+Exception: Composite requires an odd number of arguments.
 
 Windows-10-10.0.22631 AMD64
 Ren'Py 8.3.1.24090601
 VisualNovel_Programming 1.0
-Tue Jan 28 19:42:13 2025
+Tue Jan 28 19:45:08 2025
