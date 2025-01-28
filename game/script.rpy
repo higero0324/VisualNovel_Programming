@@ -5,26 +5,23 @@ define koji = Character("浩二", color="#AABBFF")
 define shiori = Character("詩織", color="#FFBBAA")
 define baba = Character("婆", color="#CCCC99")
 define kazuha = Character("楓原？", color="#ffffff")
-image shiori = "shiori.png":
-    size (250, 800)  # 幅400px、高さ600pxにリサイズ
-    yalign 1.0 
-image shiori happy = "shiori h.png":
-    size (250, 800)  # 幅400px、高さ600pxにリサイズ
-    yalign 1.0 
-image shiori troubled = "shiori t.png":
-    size (250, 800)  # 幅400px、高さ600pxにリサイズ
-    yalign 1.0 
-image shiori astonished = "shiori a.png":
-    size (250, 800)  # 幅400px、高さ600pxにリサイズ
-    yalign 1.0 
-image baba = "baba.png":
-    yalign 0.0
-image baba happy= "baba h.png":
-    yalign 0.0
+image shiori = "shiori.png"
+image shiori happy = "shiori h.png"
+image shiori troubled = "shiori t.png"
+image shiori astonished = "shiori a.png"
+image baba = "baba.png"
+image baba happy= "baba h.png"
 image Aend1 = "A end 1.png"
 image Aend2 = "A end 2.png"
 image True end = "True end.png"
 image bookstore = "images/bookstore.jpg"
+
+# 画像サイズの設定
+init python:
+    renpy.image("shiori", im.Scale("shiori.png", 250, 800), yalign=1.0)
+    renpy.image("shiori happy", im.Scale("shiori h.png", 250, 800), yalign=1.0)
+    renpy.image("shiori troubled", im.Scale("shiori t.png", 250, 800), yalign=1.0)
+    renpy.image("shiori astonished", im.Scale("shiori a.png", 250, 800), yalign=1.0)
 
 # 必要な情報を初期化
 label start:
