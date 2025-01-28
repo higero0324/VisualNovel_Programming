@@ -3,7 +3,6 @@ label r_Aend2:
     scene bg room
 
     # Display the dialogue
-    show shiori normal at center
     "難しいことは考えない方が身のためである。"
     "zzz..."
     shiori "相変わらずかわいい顔するじゃない。"
@@ -18,5 +17,3 @@ label r_Aend2:
     show Aend2 with fade
 
     "Route Lunatic Princess"
-
-    hide shiori
