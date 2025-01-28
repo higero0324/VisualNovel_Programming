@@ -8,13 +8,13 @@ define kazuha = Character("楓原？", color="#ffffff")
 image shiori = "shiori.png":
     size (250, 800)  # 幅400px、高さ600pxにリサイズ
     yalign 1.0 
-image shiori happy = "shiori h.png"
+image shiori happy = "shiori h.png":
     size (250, 800)  # 幅400px、高さ600pxにリサイズ
     yalign 1.0 
-image shiori troubled = "shiori t.png"
+image shiori troubled = "shiori t.png":
     size (250, 800)  # 幅400px、高さ600pxにリサイズ
     yalign 1.0 
-image shiori astonished = "shiori a.png"
+image shiori astonished = "shiori a.png":
     size (250, 800)  # 幅400px、高さ600pxにリサイズ
     yalign 1.0 
 image baba = "baba.png":
