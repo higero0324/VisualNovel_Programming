@@ -57,9 +57,7 @@ label prologue2:
     # 詩織登場
     "すいません～"
     koji "はい、どうされましたか？"
-    show baba:
-        pos (0.5, 0.5) 
-        xyanchor (1, 0.5)  
+    show baba at leftcenter
     show shiori at left
     shiori "この本を買いたいのですが。"
     koji "でしたらお代金1260円です。"
@@ -83,17 +81,13 @@ label prologue2:
 
 label deny:
     koji "そんなことないって！違うって！"
-    show baba happy:
-        pos (0.5, 0.5) 
-        xyanchor (1, 0.5) 
+    show baba happy at truecenter 
     baba "焦っとる焦っとる。お熱ですねぇ。"
     jump post_reaction
 
 label agree:
     koji "全く君ってやつは！"
-    show baba happy:
-        pos (0.5, 0.5) 
-        xyanchor (1, 0.5) 
+    show baba happy at truecenter
     baba "お熱ですねぇ。"
     jump post_reaction
 
