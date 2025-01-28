@@ -5,23 +5,18 @@ define koji = Character("浩二", color="#AABBFF")
 define shiori = Character("詩織", color="#FFBBAA")
 define baba = Character("婆", color="#CCCC99")
 define kazuha = Character("楓原？", color="#ffffff")
-image shiori = "shiori.png"
-image shiori happy = "shiori h.png"
-image shiori troubled = "shiori t.png"
-image shiori astonished = "shiori a.png"
-image baba = "baba.png"
-image baba happy= "baba h.png"
-image Aend1 = "A end 1.png"
-image Aend2 = "A end 2.png"
-image True end = "True end.png"
-image bookstore = "images/bookstore.jpg"
 
-# 画像サイズの設定
-init python:
-    renpy.image("shiori", im.Scale("shiori.png", 250, 800), yalign=1.0)
-    renpy.image("shiori happy", im.Scale("shiori h.png", 250, 800), yalign=1.0)
-    renpy.image("shiori troubled", im.Scale("shiori t.png", 250, 800), yalign=1.0)
-    renpy.image("shiori astonished", im.Scale("shiori a.png", 250, 800), yalign=1.0)
+# 画像の定義
+image shiori = im.Composite((250, 800), (0, 0, "shiori.png"))
+image shiori happy = im.Composite((250, 800), (0, 0, "shiori_h.png"))
+image shiori troubled = im.Composite((250, 800), (0, 0, "shiori_t.png"))
+image shiori astonished = im.Composite((250, 800), (0, 0, "shiori_a.png"))
+image baba = "baba.png"
+image baba happy= "baba_h.png"
+image Aend1 = "A_end_1.png"
+image Aend2 = "A_end_2.png"
+image True_end = "True_end.png"
+image bookstore = "images/bookstore.jpg"
 
 # 必要な情報を初期化
 label start:
