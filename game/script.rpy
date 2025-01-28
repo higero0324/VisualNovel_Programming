@@ -5,6 +5,12 @@ define koji = Character("浩二", color="#AABBFF")
 define shiori = Character("詩織", color="#FFBBAA")
 define baba = Character("婆", color="#CCCC99")
 define kazuha = Character("楓原？", color="#ffffff")
+image shiori = "shiori.png"
+image shiori happy = "shiori h.png"
+image shiori troubled = "shiori t.png"
+image shiori astonished = "shiori a.png"
+image baba = "baba.png"
+image baba happy= "baba h.png"
 
 # 必要な情報を初期化
 label start:
