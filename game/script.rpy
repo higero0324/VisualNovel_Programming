@@ -5,12 +5,25 @@ define koji = Character("浩二", color="#AABBFF")
 define shiori = Character("詩織", color="#FFBBAA")
 define baba = Character("婆", color="#CCCC99")
 define kazuha = Character("楓原？", color="#ffffff")
-image shiori = "shiori.png"
+image shiori = "shiori.png":
+    size (400, 600)  # 幅400px、高さ600pxにリサイズ
+    yalign 1.0 
 image shiori happy = "shiori h.png"
+    size (400, 600)  # 幅400px、高さ600pxにリサイズ
+    yalign 1.0 
 image shiori troubled = "shiori t.png"
+    size (400, 600)  # 幅400px、高さ600pxにリサイズ
+    yalign 1.0 
 image shiori astonished = "shiori a.png"
-image baba = "baba.png"
-image baba happy= "baba h.png"
+    size (400, 600)  # 幅400px、高さ600pxにリサイズ
+    yalign 1.0 
+image baba = "baba.png":
+    size (400,600)
+    yalign 0.0
+
+image baba happy= "baba h.png":
+    size (400,600)
+    yalign 0.0
 image Aend1 = "A end 1.png"
 image Aend2 = "A end 2.png"
 image True end = "True end.png"
