@@ -17,8 +17,6 @@ image Aend1 = "A end 1.png"
 image Aend2 = "A end 2.png"
 image True_end = "True end.png"
 image bookstore = "images/bookstore.jpg"
-transform shiori:
-    crop(0,0,500,900)
 
 # 必要な情報を初期化
 label start:
