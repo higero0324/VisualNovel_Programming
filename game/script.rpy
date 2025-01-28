@@ -15,7 +15,7 @@ image baba = "baba.png"
 image baba happy= "baba_h.png"
 image Aend1 = "A end 1.png"
 image Aend2 = "A end 2.png"
-image True_end = "True end.png"
+image True end = "True end.png"
 image bookstore = "images/bookstore.jpg"
 
 # 必要な情報を初期化
