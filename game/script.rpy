@@ -15,7 +15,7 @@ image baba happy= "baba_h.png"
 image Aend1 = "A_end 1.png"
 image Aend2 = "A_end 2.png"
 image True_end = "True end.png"
-image bg bookstore = im.Composite((1600, 1200), (0, 0), im.Scale("images/bookstore.jpg",1600, 900))
+image bg bookstore = im.Composite((1600, 1200), (0, 0), im.Scale("images/bookstore.jpg",2133, 1200))
 
 # カスタム位置定義
 transform right_center:
