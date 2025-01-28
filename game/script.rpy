@@ -1,4 +1,4 @@
-﻿# script.rpy
+# script.rpy
 
 # 必要なキャラクターを定義
 define koji = Character("浩二", color="#AABBFF")
