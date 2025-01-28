@@ -69,4 +69,4 @@ label topic_flower:
             koji"ありがとう"
         "＞遠慮しとく":
             koji"遠慮しとく"
-    jump r_Aaabbaa
+    jump r_Aaabbaaa

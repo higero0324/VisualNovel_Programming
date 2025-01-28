@@ -12,10 +12,10 @@ image shiori astonished = im.Composite((500, 900), (0, 0), "shiori_a.png")
 image shiori astonished2 = im.Composite((500, 900), (0, 0), "shiori_a2.png")
 image baba = "baba.png"
 image baba happy= "baba_h.png"
-image Aend1 = "A end 1.png"
-image Aend2 = "A end 2.png"
-image True end = "True end.png"
-image bookstore = "images/bookstore.jpg"
+image Aend1 = "A_end 1.png"
+image Aend2 = "A_end 2.png"
+image True_end = "True end.png"
+image bg bookstore = "images/bookstore.jpg"
 
 # カスタム位置定義
 transform right_center:
