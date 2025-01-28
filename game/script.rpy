@@ -57,7 +57,7 @@ label prologue2:
     # 詩織登場
     "すいません～"
     koji "はい、どうされましたか？"
-    show baba at leftcenter
+    show baba at right center
     show shiori at left
     shiori "この本を買いたいのですが。"
     koji "でしたらお代金1260円です。"
