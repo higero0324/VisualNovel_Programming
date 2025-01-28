@@ -7,10 +7,10 @@ define baba = Character("婆", color="#CCCC99")
 define kazuha = Character("楓原？", color="#ffffff")
 
 # 画像の定義
-image Shiori = Crop("shiori.png", 0, 0, 500, 900)
-image shiori happy = Crop("shiori_h.png", 0, 0, 500, 900)
-image shiori troubled = Crop("shiori_t.png", 0, 0, 500, 900)
-image shiori astonished = Crop("shiori_a.png", 0, 0, 500, 900)
+image shiori = im.Crop("shiori.png", 0, 0, 250, 600)
+image shiori happy = im.Crop("shiori_h.png", 0, 0, 250, 600)
+image shiori troubled = im.Crop("shiori_t.png", 0, 0, 250, 600)
+image shiori astonished = im.Crop("shiori_a.png", 0, 0, 250, 600)
 image baba = "baba.png"
 image baba happy= "baba_h.png"
 image Aend1 = "A end 1.png"
