@@ -41,7 +41,7 @@ label prologue:
 
 label prologue2:
     koji "ばあちゃん、その話を何回したら気が済むんだよ。"
-    show baba
+    show baba at truecenter
     baba "わしがこの話をしたのはこれが初めてじゃよ。"
     koji "そんなことない。昨日も同じことを言ってた。"
     baba "そうかの？"
@@ -57,14 +57,18 @@ label prologue2:
     # 詩織登場
     "すいません～"
     koji "はい、どうされましたか？"
-    show baba at right
+    show baba:
+        pos (0.5, 0.5) 
+        xyanchor (1, 0.5)  
     show shiori at left
     shiori "この本を買いたいのですが。"
     koji "でしたらお代金1260円です。"
     shiori "じゃあこれで。"
     koji "1260円ちょうどですね、毎度ありがとうございます。"
     hide shiori
-    show baba at center
+    show baba:
+        pos (0.5, 0.5) 
+        xyanchor (0.5, 0.5) 
 
     "彼女は買った本を抱えて帰路についた。"
 
@@ -79,13 +83,17 @@ label prologue2:
 
 label deny:
     koji "そんなことないって！違うって！"
-    show baba happy
+    show baba happy:
+        pos (0.5, 0.5) 
+        xyanchor (1, 0.5) 
     baba "焦っとる焦っとる。お熱ですねぇ。"
     jump post_reaction
 
 label agree:
     koji "全く君ってやつは！"
-    show baba happy
+    show baba happy:
+        pos (0.5, 0.5) 
+        xyanchor (1, 0.5) 
     baba "お熱ですねぇ。"
     jump post_reaction
 
