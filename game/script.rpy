@@ -146,7 +146,7 @@ label r_aaa:
             shiori"？？？" 
             "詩織は混乱した！"
             koji"おかしい。本にはJKにおすすめって書いてるのに..."
-            show shiori
+            show shiori astonished2
             shiori"そのJKって女子高生じゃなくて情報系高専生の略だと思う..."
             koji"そっかぁ"
             hide shiori
