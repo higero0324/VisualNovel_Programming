@@ -13,9 +13,9 @@ image shiori troubled = im.Scale("shiori_t.png", 250, 600)
 image shiori astonished = im.Scale("shiori_a.png", 250, 600)
 image baba = "baba.png"
 image baba happy= "baba_h.png"
-image Aend1 = "A_end_1.png"
-image Aend2 = "A_end_2.png"
-image True_end = "True_end.png"
+image Aend1 = "A end 1.png"
+image Aend2 = "A end 2.png"
+image True_end = "True end.png"
 image bookstore = "images/bookstore.jpg"
 
 # 必要な情報を初期化
