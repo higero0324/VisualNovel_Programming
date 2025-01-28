@@ -7,7 +7,7 @@ define baba = Character("婆", color="#CCCC99")
 define kazuha = Character("楓原？", color="#ffffff")
 
 # 画像の定義
-image shiori = im.Scale("shiori.png", 500, 1200)
+image Shiori = "shiori.png"
 image shiori happy = im.Scale("shiori_h.png", 500, 1200)
 image shiori troubled = im.Scale("shiori_t.png", 500, 1200)
 image shiori astonished = im.Scale("shiori_a.png", 500, 1200)
@@ -52,7 +52,7 @@ label prologue2:
     baba "もちろんじゃ。確か..."
     baba "忘れた。"
     baba "何と言ったかの？"
-    baba "田所浩二というのじゃな"
+    baba "戸田浩二というのじゃな"
     koji "そうだよ。覚えておいてね。"
     baba "わしが忘れごとをしたことは生涯一度もないから安心せい。"
     koji "さっき僕の名前を忘れてたじゃん！"
