@@ -17,6 +17,13 @@ image Aend2 = "A end 2.png"
 image True end = "True end.png"
 image bookstore = "images/bookstore.jpg"
 
+# カスタム位置定義
+transform right_center:
+    xpos 1.0
+    xanchor 1.0
+    ypos 0.5
+    yanchor 0.5
+
 # 必要な情報を初期化
 label start:
     # タイトル画面から開始
