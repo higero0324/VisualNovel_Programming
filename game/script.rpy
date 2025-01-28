@@ -14,7 +14,7 @@ image baba happy= "baba h.png"
 image Aend1 = "A end 1.png"
 image Aend2 = "A end 2.png"
 image True end = "True end.png"
-image bookstore = "_used_bookstore_1.jpg"
+image bookstore = "images/_used_bookstore_1.jpg"
 
 # 必要な情報を初期化
 label start:
