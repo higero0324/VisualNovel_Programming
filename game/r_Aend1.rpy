@@ -118,4 +118,10 @@ label r_Aend1:
     "お持ち帰りのチョコパイですら冷えてしまうほど時間が経ってもなおである。"
     #end
 
+    scene bg black
+    with fade
+
+    show Aend1 with fade
+
+    "Route Escaping Reality"
     return

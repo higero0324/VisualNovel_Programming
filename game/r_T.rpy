@@ -28,4 +28,11 @@ label r_T:
     shiori"また明日！！！"
     "これが最高のTrueEndなのだと僕は思う。"
 
+    scene bg black
+    with fade
+
+    show True end with fade
+
+    "Route Front Side"
+
     return

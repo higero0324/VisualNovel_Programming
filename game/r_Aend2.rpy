@@ -12,4 +12,11 @@ label r_Aend2:
     shiori "てーさいとには何でもそろってるから助かるわ。"
 
     # End the scene
+    scene bg black
+    with fade
+
+    show Aend2 with fade
+
+    "Route Lunatic Princess"
+
     hide shiori
