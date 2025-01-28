@@ -8,23 +8,17 @@ define kazuha = Character("楓原？", color="#ffffff")
 
 # 画像の定義
 image shiori = im.Scale("shiori.png", 500, 1200)
-transform shiori:
-    crop(0,0,500,900)
 image shiori happy = im.Scale("shiori_h.png", 500, 1200)
-transform shiori happy:
-    crop(0,0,500,900)
 image shiori troubled = im.Scale("shiori_t.png", 500, 1200)
-transform shiori troubled:
-    crop(0,0,500,900)
 image shiori astonished = im.Scale("shiori_a.png", 500, 1200)
-transform shiori astonished:
-    crop(0,0,500,900)
 image baba = "baba.png"
 image baba happy= "baba_h.png"
 image Aend1 = "A end 1.png"
 image Aend2 = "A end 2.png"
 image True_end = "True end.png"
 image bookstore = "images/bookstore.jpg"
+transform shiori:
+    crop(0,0,500,900)
 
 # 必要な情報を初期化
 label start:
