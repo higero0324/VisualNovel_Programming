@@ -1,28 +1,26 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 65, in script
-    shiori "この本を買いたいのですが。"
-TypeError: got an unexpected keyword argument 'interact'
+  File "game/script.rpy", line 10, in script
+    image shiori = im.crop("shiori.png", 0, 0, 500, 900)
+  File "game/script.rpy", line 10, in <module>
+    image shiori = im.crop("shiori.png", 0, 0, 500, 900)
+AttributeError: module 'renpy.display.im' has no attribute 'crop'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 65, in script
-    shiori "この本を買いたいのですが。"
-  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\ast.py", line 2573, in execute
-    Say.execute(self)
-  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\ast.py", line 615, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\exports\sayexports.py", line 132, in say
-    who(what, *args, **kwargs)
-  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\atl.py", line 623, in __call__
-    new_scope = signature.apply(args, kwargs, partial=True, apply_defaults=False)
-  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\parameter.py", line 384, in apply
-    raise TypeError(
-TypeError: got an unexpected keyword argument 'interact'
+  File "game/script.rpy", line 10, in script
+    image shiori = im.crop("shiori.png", 0, 0, 500, 900)
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\ast.py", line 920, in execute
+    img = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 10, in <module>
+    image shiori = im.crop("shiori.png", 0, 0, 500, 900)
+AttributeError: module 'renpy.display.im' has no attribute 'crop'
 
 Windows-10-10.0.22631 AMD64
 Ren'Py 8.3.1.24090601
 VisualNovel_Programming 1.0
-Tue Jan 28 22:02:31 2025
+Tue Jan 28 22:09:55 2025
