@@ -7,7 +7,10 @@ label r_ab:
     "だからこそ強く祈るのである。"
 
 
+    scene black with fade
     "次の日"
+    scene bg bookstore with fade
+    show shiori
     "一通り本の整理が終わり表に戻ると詩織が本を読んでいた。"
     koji"（話しかけるべきだろうか？）" 
     menu:
