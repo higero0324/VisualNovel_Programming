@@ -23,6 +23,8 @@ image bg bookstore = im.Composite((1600, 1200), (0, 0), im.Scale("images/booksto
 transform semiright:
     xpos 0.75
     xanchor 0.75
+    ypos 1.0
+    yanchor 1.0
 transform right_center:
     xpos 1.0
     xanchor 1.0
