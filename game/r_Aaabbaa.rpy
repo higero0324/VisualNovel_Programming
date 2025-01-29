@@ -27,9 +27,9 @@ label r_Aaabbaa:
     "詩織が起きたようだ。"
     
     menu:
-        "おはよう":
+        "＞おはよう":
             koji "おはよう"
-        "もうすぐこんばんはだよ":
+        "＞もうすぐこんばんはだよ":
             koji "もうすぐこんばんはだよ"
     
     show shiori hawawa
@@ -51,9 +51,9 @@ label r_Aaabbaa:
     shiori "うん、また今度"
     
     menu:
-        "ばいばい":
+        "＞ばいばい":
             koji "ばいばい"
-        "またね":
+        "＞またね":
             koji "またね"
     
     hide shiori
@@ -68,9 +68,9 @@ label r_Aaabbaa:
     koji "(やはりいつも寝てしまうのは、なぜなんだろう)"
     
     menu:
-        "気にしない":
+        "＞にしない":
             jump r_Aend2
-        "考察してみる":
+        "＞考察してみる":
             jump think_about_it
 
 label think_about_it:
@@ -79,15 +79,15 @@ label think_about_it:
     "その時、隣の部屋から寝息が聞こえた。"
     koji "誰かいるのかな"
     menu:
-        "気にしない":
+        "＞気にしない":
             jump r_Aend2
-        "見に行ってみる":
+        "＞見に行ってみる":
             scene black with fade
             "その部屋には詩織の両親と思われる人が寝ていた。"
             "今日は週末であるが朝に僕が来た時から昼にさしかかろうという今の今までずっとねていたのだろうか"
             "それだけお仕事を頑張ったということだろうか"
             menu:
-                "気にしない":
+                "＞気にしない":
                     "もう頭が回らない。"
                     jump r_Aend2
     return

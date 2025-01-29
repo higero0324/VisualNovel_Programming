@@ -63,9 +63,10 @@ label topic_flower:
             "やっぱり行こう"
     hide shiori
 
-    scene bg room2 with fade
+    scene bg root m with fade
     menu:
         "＞お邪魔します":
+            scene bg room2 with fade
             "こうして僕は詩織の家に上がった。"
             "本棚に見たことのない本が大量に並んでいる。"
             "壮観である。"
