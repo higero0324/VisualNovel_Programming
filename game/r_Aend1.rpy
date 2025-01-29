@@ -1,6 +1,6 @@
 label r_Aend1:
     "気づかれないように詩織の後を追った。"
-    show siori at semiright
+    show shiori at semiright
     "詩織は本の試し読みをしていた。"
     "「転生するのスランプだった件」"
     "知らないタイトルの本である。うちには置いていない。"
@@ -15,12 +15,12 @@ label r_Aend1:
     "どうやら純愛ものだと思っていたら唐突なNTRれにより脳が破壊されたようだ。"
     "合掌。"
     
-    show siori troubled
+    show shiori troubled
     shiori "あれ、浩二くん？"
     "いつの間にか詩織が側にいた。"
     "さしずめ轟音の方向に目を向けたら経路上にいた僕に気づいたのだろう。"
     
-    show siori
+    show shiori
     shiori "お使いに来たの？"
     koji "そうだよ。詩織は何をしてたの？"
     "戸惑いのせいか我ながら愚問を投げてしまった。"
@@ -93,7 +93,7 @@ label r_Aend1:
     "そうに決まっている。"
 
     koji "おいしい。"
-    show siori happy
+    show shiori happy
     shiori "よかった。"
 
     shiori "あー"
