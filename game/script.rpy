@@ -19,6 +19,8 @@ image True_end = "True end.png"
 image bg bookstore = im.Composite((1600, 1200), (0, 0), im.Scale("images/bookstore.jpg",2133, 1200))
 transform dimmed:
     alpha 0.5
+transform ndimmed:
+    alpha 1.0
 
 # カスタム位置定義
 transform right_center:
@@ -68,7 +70,7 @@ label prologue2:
     "すいません～"
     koji "はい、どうされましたか？"
     show baba at right_center
-    show shiori at left
+    show shiori at ndimmed, left
     shiori "この本を買いたいのですが。"
     koji "でしたらお代金1260円です。"
     shiori "じゃあこれで。"

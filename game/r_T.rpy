@@ -29,7 +29,7 @@ label r_T:
         "好きだ!!!":
             koji"好きだ！！！"
     "詩織が振り返る。"
-    show shiori at right
+    show shiori at ndimmed, right
     shiori"私も好き！！！！"
     "ノータイムで帰ってきた言葉に僕はうまく反応できなかった。"
     "彼女はこうつづけた。"
