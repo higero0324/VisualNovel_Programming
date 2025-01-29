@@ -16,6 +16,8 @@ label r_Aaab:
     "材料を多めに買ってしまったが、カレーは僕が２人分食したので結果オーライである。"
     "我ながらパワフルである。"
     "次の日、詩織が店に来てくれた。"
+    scene bg bookstore with fade
+    show shiori
     koji "(何か話しかけるにちょうどいい話題はないかな？)"
 
     menu:
@@ -26,8 +28,9 @@ label r_Aaab:
             jump topic_flower
 
 label topic_yesterday:
-    koji "昨日、てーさいとで見かけた件について話そうか。"
+    "昨日、てーさいとで見かけた件について話そうか。"
     # Add more dialogue and actions here
+    show shiori at astonished2
     shiori"てーさいとで見かけた？人違いじゃないかな？"
     menu:
         "＞そうかな？":
@@ -40,12 +43,15 @@ label topic_yesterday:
     jump topic_flower
 
 label topic_flower:
+    show shiori
     koji "謎の花について話そうか。"
     # Add more dialogue and actions here
     "詩織に謎の花を見せた"
+    show shiori seriously
     shiori"なんだろう、この花。"
     shiori"うちにある植物図鑑になら載ってるかも。"
     "このチャンスを逃すなんてありえないだろう。"
+    show shiori
     shiori"一緒にうちにきて確認する？"
     menu:
         "＞そうしよう":
@@ -55,12 +61,15 @@ label topic_flower:
             "これは..."
             "考えない方が身のためである"
             "やっぱり行こう"
+    hide shiori
 
+    scene bg room2 with fade
     menu:
         "＞お邪魔します":
             "こうして僕は詩織の家に上がった。"
             "本棚に見たことのない本が大量に並んでいる。"
             "壮観である。"
+    show shiori happy
             shiori"これしかなかったけどいいかな"
             "そういってアイスティーを渡される。"
 
@@ -69,4 +78,4 @@ label topic_flower:
             koji"ありがとう"
         "＞遠慮しとく":
             koji"遠慮しとく"
-    jump r_Aaabbaaa
+    jump r_Aaabbaa

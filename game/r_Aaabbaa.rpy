@@ -4,6 +4,7 @@ label r_Aaabbaa:
     show shiori happy
     shiori "それじゃ探しますかー"
     koji "そうだね。"
+    show shiori seriously
     "２人で図鑑と花の写真を比較する。"
     "かなり根気のいる作業である。"
     "かなり疲れた。"
@@ -15,8 +16,12 @@ label r_Aaabbaa:
     "寝てしまったのだろう。"
     "僕は近くにあった毛布を詩織にかけた。"
     koji "(かわいい寝顔だ。)"
+    hide shiori 
+    scene black with fade
     "その後も僕は図鑑とにらめっこした。"
     "図鑑の端から端まで見たが、結局花の正体を暴くことはできなかった。"
+
+    scene bg room2 with fade
     show shiori troubled
     shiori "ん？おはよう？"
     "詩織が起きたようだ。"
