@@ -1,5 +1,5 @@
 label r_Aaabbaa:
-    scene bg_room_day
+    scene bg room2
 
     show shiori happy
     shiori "それじゃ探しますかー"
@@ -58,7 +58,7 @@ label r_Aaabbaa:
     "ただ毎回、僕か詩織が途中で寝てしまう。"
     "今日も詩織の家にいるが寝てしまうのだろうか。"
 
-    scene bg room with fade
+    scene bg room2 with fade
 
     koji "(やはりいつも寝てしまうのは、なぜなんだろう)"
     
