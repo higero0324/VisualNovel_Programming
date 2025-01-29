@@ -34,7 +34,7 @@ label r_Aaab:
 label topic_yesterday:
     "昨日、てーさいとで見かけた件について話そうか。"
     # Add more dialogue and actions here
-    show shiori at astonished2
+    show shiori astonished2
     shiori"てーさいとで見かけた？人違いじゃないかな？"
     menu:
         "＞そうかな？":
