@@ -11,6 +11,7 @@ image shiori troubled = im.Scale(im.Composite((500, 900), (0, 0), "shiori_t.png"
 image shiori seriously = im.Scale(im.Composite((500, 900), (0, 0), "shiori_s.png"),600,1080)
 image shiori astonished = im.Scale(im.Composite((500, 900), (0, 0), "shiori_a.png"),600,1080)
 image shiori astonished2 = im.Scale(im.Composite((500, 900), (0, 0), "shiori_a2.png"),600,1080)
+image shiori embarrassed = im.Scale(im.Composite((500, 900), (0, 0), "shiori_e.png"),600,1080)
 image baba = "baba.png"
 image baba happy= "baba_h.png"
 image Aend1 = "A_end 1.png"

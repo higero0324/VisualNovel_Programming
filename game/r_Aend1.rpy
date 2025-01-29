@@ -39,32 +39,45 @@ label r_Aend1:
     
     "そういわれるとこっちも嬉しい。"
 
-    show shiori
+    show shiori happy
     shiori "でもよくよく考えてみたら君に読み聞かせる本なら君が選んだ方がいいんじゃない？"
     koji "確かに。"
-    
+    show shiori
     shiori "今日は荷物で大変だろうから明日一緒に見て回らない？"
     
     menu:
         ">いいよ、楽しみ":
+            koji"いいよ、楽しみ"
+            show shiori happy
             shiori "じゃあ決まりだね。"
 
+    show shiori
     shiori "待って、もうこんな時間。私、塾があるから先に失礼するね。"
     koji "わかった、ばいばい～"
+    show shiori happy
     shiori "また明日～"
     
     "そういって彼女は塾に向かっていった。"
+    hide shiori
     koji "僕も帰るか。"
     "材料を余分に買ってしまったせいで荷物は重かったが、帰路の足取りは軽かった。"
     "ちなみにばあちゃんがカレーを2人分食したので結果オーライである。"
     
+    scene black with fade
+    scene bg bookstore with fade
+    
+    show shiori
     "翌日、店に詩織がやってきた。"
+    show shiori happy
     shiori "じゃあ本を探しにいこっか。"
     
     "僕は深くうなづいた。"
+    scene black with fade
+
     "ばあちゃんに店を任せて2人でてーさいとに向かった。"
     "そこで今まで見たことも聞いたこともない本を大量に買った。"
 
+    scene bg root
     shiori "たくさん本を読んだから疲れたでしょ。"
     shiori "ほらこれ。"
     
@@ -80,49 +93,71 @@ label r_Aend1:
     "そうに決まっている。"
 
     koji "おいしい。"
+    show siori happy
     shiori "よかった。"
 
     shiori "あー"
+    show shiori seriously
     shiori "突然、詩織は僕の頬を指でなぞる。"
     shiori "口にチョコがついてた、みっともないぞ。"
+    show shiori happy
 
     "詩織は笑う。"
     "突然直に触れられた私は赤面することしかできなかった。"
 
+    show shiori embarrassed
     shiori "なによその顔、こっちまで照れてきたじゃない///"
     
     "2人が赤面して向かい合うなんとも言えない構図となった。"
 
     shiori "ちょっと、ここ暑くない？"
+    show shiori happy
     shiori "もう時間も時間だし外の風で涼みながら家に帰ろ？"
     
     "静寂を切り裂くように詩織がつぶやく。"
     koji "そうだね。"
 
+    scene black with fade
+
     "2人は来た道を戻った。"
     "帰り道はお互いに何も話せなかった。"
     
+
     "店についてお別れの時間となった。"
     
+    scene bg front bookstore with fade
+    show shiori
+
+
     menu:
         ">今日は楽しかったよ":
+            show shiori happy
             shiori "うん、わたしも楽しかった。"
         ">今日は面白かったよ":
+            show shiori happy
             shiori "そうだね、わたしも面白かった。"
 
     menu:
         ">また一緒に回ろう？":
+            show shiori happy
             shiori "いいね、賛成！"
         ">また一緒に出かけよう？":
+            show shiori happy
             shiori "うん、楽しみにしてる。"
 
-    baba "浩二よ、帰ってきたなら手伝ってほしいの。"
+    show shiori
+
+    baba "浩二よ、帰ってきたなら手伝ってほしいのぉ～。"
     koji "じゃあ、呼ばれてるからこれでお開きだね。"
+
+    show shiori happy
+
     shiori "そうだね、ばいばーい"
 
     koji "ばいばい！"
     
     "そして彼女は帰っていった。"
+    hide shiori with fade
     "熱はまだ残っている。"
     "お持ち帰りのチョコパイですら冷えてしまうほど時間が経ってもなおである。"
     #end
