@@ -90,11 +90,11 @@ label r_Aa:
             koji"（仕方がないからばあちゃんに2人分おしつけるか）"
     
     "さて帰ろうかと思っていた矢先であった。"
-    show siori at semiright
+    show shiori at semiright
     "本屋のほうに見慣れた姿が見える。"
     koji"詩織？"
     "その声は当然人ごみのなかにかき消されて彼女には届かない。"
-    hide siori
+    hide shiori
     "そして彼女は奥の方へと消えていった。"
     koji"(後を追ってみるべきだろうか？)"
     menu:
