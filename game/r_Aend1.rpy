@@ -15,7 +15,7 @@ label r_Aend1:
     "どうやら純愛ものだと思っていたら唐突なNTRれにより脳が破壊されたようだ。"
     "合掌。"
     
-    show shiori troubled
+    show shiori troubled at center
     shiori "あれ、浩二くん？"
     "いつの間にか詩織が側にいた。"
     "さしずめ轟音の方向に目を向けたら経路上にいた僕に気づいたのだろう。"
