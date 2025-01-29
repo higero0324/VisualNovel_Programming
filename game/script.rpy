@@ -18,6 +18,10 @@ image Aend1 = "A end 1.png"
 image Aend2 = "A end 2.png"
 image True end = "True end.png"
 image bg bookstore = im.Composite((1600, 1200), (0, 0), im.Scale("images/bookstore.jpg",2133, 1200))
+image bg Tsite = im.Composite((1600, 1200), (0, 0), im.Scale("images/T site.jpg",2133, 1200))
+image bg root m = im.Composite((1600, 1200), (0, 0), im.Scale("images/root m.jpg",2133, 1200))
+image bg root an = im.Composite((1600, 1200), (0, 0), im.Scale("images/root an.jpg",2133, 1200))
+image bg root n = im.Composite((1600, 1200), (0, 0), im.Scale("images/root n.jpg",2133, 1200))
 
 # カスタム位置定義
 transform semiright:
