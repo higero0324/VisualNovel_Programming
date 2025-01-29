@@ -29,7 +29,7 @@ image bg root an = im.Composite((1600, 1200), (0, 0), im.Scale("images/root an.j
 image bg root n = im.Composite((1600, 1200), (0, 0), im.Scale("images/root n.jpg",2133, 1200))
 image bg shop = im.Composite((1600, 1200), (0, 0), im.Scale("images/shop.jpg",2133, 1200))
 image bg room = im.Composite((1600, 1200), (0, 0), im.Scale("images/room.jpg",2133, 1200))
-image bg room2 = im.Composite((1600, 1200), (0, 0), im.Scale("images/room2.jpg",2133, 1200))
+image bg room2 = im.Composite((1600, 1200), (0, 0), im.Scale("images/room2.png",2133, 1200))
 
 # カスタム位置定義
 transform semiright:
