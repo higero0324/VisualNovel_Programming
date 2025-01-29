@@ -17,6 +17,8 @@ image Aend1 = "A_end 1.png"
 image Aend2 = "A_end 2.png"
 image True_end = "True end.png"
 image bg bookstore = im.Composite((1600, 1200), (0, 0), im.Scale("images/bookstore.jpg",2133, 1200))
+transform dimmed:
+    alpha 0.5
 
 # カスタム位置定義
 transform right_center:

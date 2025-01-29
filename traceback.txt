@@ -1,17 +1,17 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 60, in script
-    show baba at right_center
-  File "game/script.rpy", line 60, in <module>
-    show baba at right_center
-NameError: name 'right_center' is not defined
+  File "game/r_T.rpy", line 22, in script
+    show shiori at dimmed
+  File "game/r_T.rpy", line 22, in <module>
+    show shiori at dimmed
+NameError: name 'dimmed' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 60, in script
-    show baba at right_center
+  File "game/r_T.rpy", line 22, in script
+    show shiori at dimmed
   File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\ast.py", line 1111, in execute
     show_imspec(self.imspec, atl=getattr(self, "atl", None))
   File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\ast.py", line 1070, in show_imspec
@@ -22,11 +22,11 @@ Full traceback:
     return py_eval_bytecode(code, globals, locals)
   File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\python.py", line 1202, in py_eval_bytecode
     return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 60, in <module>
-    show baba at right_center
-NameError: name 'right_center' is not defined
+  File "game/r_T.rpy", line 22, in <module>
+    show shiori at dimmed
+NameError: name 'dimmed' is not defined
 
 Windows-10-10.0.22631 AMD64
 Ren'Py 8.3.1.24090601
 VisualNovel_Programming 1.0
-Tue Jan 28 23:41:01 2025
+Wed Jan 29 09:56:08 2025
