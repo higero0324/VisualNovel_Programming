@@ -51,6 +51,6 @@ label r_T:
 
     window show
 
-    "Route Front Side"
+    "Route boring and boring......"
 
     return
