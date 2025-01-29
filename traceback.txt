@@ -1,22 +1,30 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/r_Aaab.rpy", line 72, in script
-    jump r_Aaabbaaa
-ScriptError: could not find label 'r_Aaabbaaa'.
+  File "game/r_F.rpy", line 4, in script
+    show shiori normal at center
+Exception: Image 'shiori' does not accept attributes 'normal'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/r_Aaab.rpy", line 72, in script
-    jump r_Aaabbaaa
-  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\ast.py", line 1699, in execute
-    rv = renpy.game.script.lookup(target)
-  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\script.py", line 1103, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'r_Aaabbaaa'.
+  File "game/r_F.rpy", line 4, in script
+    show shiori normal at center
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\ast.py", line 1111, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\ast.py", line 1074, in show_imspec
+    renpy.config.show(name,
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\exports\displayexports.py", line 477, in show
+    if not base.find_target() and renpy.config.missing_show:
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\display\image.py", line 421, in find_target
+    self.target = target._duplicate(a)
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\display\displayable.py", line 249, in _duplicate
+    args.extraneous()
+  File "C:\Users\shitt\Downloads\renpy-8.3.1-sdk\renpy\display\displayable.py", line 109, in extraneous
+    raise Exception("Image '{}' does not accept attributes '{}'.".format(
+Exception: Image 'shiori' does not accept attributes 'normal'.
 
 Windows-10-10.0.22631 AMD64
 Ren'Py 8.3.1.24090601
 VisualNovel_Programming 1.0
-Wed Jan 29 22:06:33 2025
+Wed Jan 29 22:56:08 2025

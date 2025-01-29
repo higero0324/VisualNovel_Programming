@@ -1,28 +1,29 @@
 label r_F:
 
     scene bg bookstore
-    show shiori normal at center
+    show shiori at center
 
+    show shiori astonished
     shiori "君って視差滅裂な文章を作るのが得意なの？"
     menu:
-        "そうだよ":
+        "＞そうだよ":
             koji "そうだよ"
-        "そうだよ":
+        "＞そうだよ":
             koji "そうだよ"
-        "そうだよ":
+        "＞そうだよ":
             koji "そうだよ"
-        "そうだよ":
+        "＞そうだよ":
             koji "そうだよ"
     
+    show shiori astonished2
     shiori "そっか。じゃあ私は本を読んでるから静にしてくれる？"
     koji "わかった。"
     
-    narrator "いったいどこを間違えたのだろうか？"
-    narrator "しばらくして彼女は書店を後にした。"
+    "いったいどこを間違えたのだろうか？"
+    hide shiori
+    "しばらくして彼女は書店を後にした。"
 
-    scene bg street
-    show baba normal at left
-    show koji normal at right
+    show baba at truecenter
 
     baba "落ち込んどるの。どうしたんじゃ？"
     koji "（ばあちゃんに相談に乗ってもらうべきだろうか？）"
@@ -37,14 +38,19 @@ label consult_grandma:
     "そうしよう"
     baba "ばあちゃんにここまでのことを話した。"
     baba "あらまぁ。"
+    show baba happy at truecenter
     baba "読み物っていうのは十分に理解してこそその面白みがわかるってものよ。"
     baba "ゆっくりでいいから丁寧に読みなさい。"
+    show baba at truecenter
     baba "ああそうそう、人の話においても同様じゃ。"
+    show baba happy at truecenter
     baba "最も人の話を区切ってゆっくり見返す事なんてできないんじゃがの。"
     "ばあちゃんはそういって笑った。"
     "だけどそうだろうか。"
     "僕なら人の話をゆっくり見返すことができるような気がする。"
     "ほんとうに何故かそんな気がする。"
+    scene black with fade
+    hide baba
     "そもそもこれは僕の望んだ話じゃない。"
     "望んだルートじゃない。"
     "君、そう君。そこにいるんだろう。"
