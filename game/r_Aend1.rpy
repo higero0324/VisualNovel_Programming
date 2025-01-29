@@ -147,7 +147,7 @@ label r_Aend1:
 
     show shiori
 
-    baba "浩二よ、帰ってきたなら手伝ってほしいのぉ～。"
+    baba "{b}浩二よ、帰ってきたなら手伝ってほしいのぉ～。{/b}"
     koji "じゃあ、呼ばれてるからこれでお開きだね。"
 
     show shiori happy
