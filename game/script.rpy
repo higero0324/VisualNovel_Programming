@@ -14,8 +14,8 @@ image shiori astonished2 = im.Scale(im.Composite((500, 900), (0, 0), "shiori_a2.
 image shiori embarrassed = im.Scale(im.Composite((500, 900), (0, 0), "shiori_e.png"),600,1080)
 image baba = "baba.png"
 image baba happy= "baba_h.png"
-image Aend1 = "A_end 1.png"
-image Aend2 = "A_end 2.png"
+image Aend1 = "A end 1.png"
+image Aend2 = "A end 2.png"
 image True end = "True end.png"
 image bg bookstore = im.Composite((1600, 1200), (0, 0), im.Scale("images/bookstore.jpg",2133, 1200))
 

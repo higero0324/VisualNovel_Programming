@@ -78,19 +78,26 @@ label r_Aend1:
     "そこで今まで見たことも聞いたこともない本を大量に買った。"
 
     scene bg root
+    show shiori
     shiori "たくさん本を読んだから疲れたでしょ。"
+    show shiori
     shiori "ほらこれ。"
     
+    show shiori happy
     shiori "糖分の補給は大事だぞ。"
     koji "間違いないね。"
     menu:
         ">いただきまーす":
             koji "いただきま-す。"
     "三角チョコパイを思いっきり頬張る。"
+    hide shiori
+    scene bg my world with fade
     "とろとろとして甘いチョコとサクサクとしたパイ生地のデュエットが織りなす旋律は至極といって差し支えなく、"
     "後からチョコの苦みも加わり完璧なトリオへと昇華していった。"
     "三角チョコパイが三角である所以は調和のとれたこのトリオを物理的に表現したかったからではないだろうか、"
     "そうに決まっている。"
+    scene bg root
+    show shiori
 
     koji "おいしい。"
     show shiori happy
@@ -157,13 +164,14 @@ label r_Aend1:
     koji "ばいばい！"
     
     "そして彼女は帰っていった。"
-    hide shiori with fade
+    hide shiori
     "熱はまだ残っている。"
     "お持ち帰りのチョコパイですら冷えてしまうほど時間が経ってもなおである。"
     #end
 
-    scene bg black
-    with fade
+    scene black with fade
+
+    pause
 
     show Aend1 with fade
 
