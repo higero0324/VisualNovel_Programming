@@ -21,10 +21,10 @@ label r_Aaab:
     koji "(何か話しかけるにちょうどいい話題はないかな？)"
 
     menu:
-        "昨日、てーさいとで見かけた件について":
+        "＞昨日、てーさいとで見かけた件について":
             jump topic_yesterday
 
-        "謎の花について":
+        "＞謎の花について":
             jump topic_flower
 
 label topic_yesterday:

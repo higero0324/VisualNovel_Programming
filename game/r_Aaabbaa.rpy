@@ -40,7 +40,7 @@ label r_Aaabbaa:
     koji "それと"
     
     menu:
-        "また今度本を読みにきていい？":
+        "＞また今度本を読みにきていい？":
             koji "また今度本を読みにきていい？"
     
     show shiori happy
