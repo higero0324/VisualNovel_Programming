@@ -8,6 +8,7 @@ define kazuha = Character("楓原？", color="#ffffff")
 image shiori = im.Scale(im.Composite((500, 900), (0, 0), "shiori.png"),600,1080)
 image shiori happy = im.Scale(im.Composite((500, 900), (0, 0), "shiori_h.png"),600,1080)
 image shiori troubled = im.Scale(im.Composite((500, 900), (0, 0), "shiori_t.png"),600,1080)
+image shiori seriously = im.Scale(im.Composite((500, 900), (0, 0), "shiori_s.png"),600,1080)
 image shiori astonished = im.Scale(im.Composite((500, 900), (0, 0), "shiori_a.png"),600,1080)
 image shiori astonished2 = im.Scale(im.Composite((500, 900), (0, 0), "shiori_a2.png"),600,1080)
 image baba = "baba.png"
@@ -176,14 +177,16 @@ label r_aaaad:
     show shiori troubled
     shiori"二人が十歳の時、家に帰ると、母親が部屋の中で倒れていた。"
     shiori"犯人は明らかに伯爵の家族だったが、伯爵の力は強大で、事件は最終的に自殺と認定された。"
-    show shiori 
+    show shiori seriously
     shiori"二人は屋敷を逃げ出して将来の復讐を誓った。"
     shiori"ある老人が二人を弟子として受け入れ、剣術、銃術、詐術を教えた。"
+    show shiori troubled
     shiori"数年後、伯爵の家族は次々と銃で殺され、どの死体には満開のレインボーローズが添えられていたが、"
     shiori"それは亡くなった母親が一番好きな花だった。"
     shiori"伯爵は女中の亡霊が復讐しに来たのだと思ったが、その正体は銃士となった二人の兄妹だった。"
     show shiori happy
     shiori"彼らは自力で手がかりと証拠を集め、伯爵への復讐を果たし、母親の死の真相を世間に知らしめた。"
+    show shiori seriously
     "詩織は熱心に語っていた。"
     jump r_aaaad2
 
