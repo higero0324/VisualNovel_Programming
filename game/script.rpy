@@ -5,11 +5,11 @@ define baba = Character("婆", color="#CCCC99")
 define kazuha = Character("楓原？", color="#ffffff")
 
 # 画像の定義
-image shiori = im.Composite((500, 900), (0, 0), "shiori.png")
-image shiori happy = im.Composite((500, 900), (0, 0), "shiori_h.png")
-image shiori troubled = im.Composite((500, 900), (0, 0), "shiori_t.png")
-image shiori astonished = im.Composite((500, 900), (0, 0), "shiori_a.png")
-image shiori astonished2 = im.Composite((500, 900), (0, 0), "shiori_a2.png")
+image shiori = im.Scale(im.Composite((500, 900), (0, 0), "shiori.png"),600,1080)
+image shiori happy = im.Scale(im.Composite((500, 900), (0, 0), "shiori_h.png"),600,1080)
+image shiori troubled = im.Scale(im.Composite((500, 900), (0, 0), "shiori_t.png"),600,1080)
+image shiori astonished = im.Scale(im.Composite((500, 900), (0, 0), "shiori_a.png"),600,1080)
+image shiori astonished2 = im.Scale(im.Composite((500, 900), (0, 0), "shiori_a2.png"),600,1080)
 image baba = "baba.png"
 image baba happy= "baba_h.png"
 image Aend1 = "A_end 1.png"
