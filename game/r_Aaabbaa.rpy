@@ -17,7 +17,7 @@ label r_Aaabbaa:
     "僕は近くにあった毛布を詩織にかけた。"
     koji "(かわいい寝顔だ。)"
     hide shiori 
-    scene black with fade
+    scene white with fade
     "その後も僕は図鑑とにらめっこした。"
     "図鑑の端から端まで見たが、結局花の正体を暴くことはできなかった。"
 
@@ -57,7 +57,7 @@ label r_Aaabbaa:
             koji "またね"
     
     hide shiori
-    scene black with fade
+    scene white with fade
 
     "それからはたびたび詩織の家に招かれて一緒に本を読んだ。"
     "ただ毎回、僕か詩織が途中で寝てしまう。"
@@ -82,7 +82,7 @@ label think_about_it:
         "＞気にしない":
             jump r_Aend2
         "＞見に行ってみる":
-            scene black with fade
+            scene white with fade
             "その部屋には詩織の両親と思われる人が寝ていた。"
             "今日は週末であるが朝に僕が来た時から昼にさしかかろうという今の今までずっとねていたのだろうか"
             "それだけお仕事を頑張ったということだろうか"

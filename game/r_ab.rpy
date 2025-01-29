@@ -7,7 +7,7 @@ label r_ab:
     "だからこそ強く祈るのである。"
 
 
-    scene black with fade
+    scene white with fade
     "次の日"
     scene bg bookstore with fade
     show shiori

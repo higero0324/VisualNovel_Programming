@@ -39,7 +39,7 @@ label r_T:
     shiori"また明日！！！"
     "これが最高のTrueEndなのだと僕は思う。"
 
-    scene black with fade
+    scene white with fade
 
     pause
 

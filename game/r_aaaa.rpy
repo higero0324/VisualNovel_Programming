@@ -20,7 +20,7 @@ label r_aaaa:
             koji"知ってる！東急リバブルは年間2万件仲介してるって。"
             show shiori happy
             shiori"よく知ってるね"
-            scene black with fade
+            scene white with fade
             hide shiori
             "2人はそのまま東急リバブルの話をした。"
             "マンボウが1億匹の卵を産むことも、"

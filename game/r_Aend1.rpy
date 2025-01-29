@@ -73,7 +73,7 @@ label r_Aend1:
     shiori "じゃあ本を探しにいこっか。"
     
     "僕は深くうなづいた。"
-    scene black with fade
+    scene white with fade
 
     "ばあちゃんに店を任せて2人でてーさいとに向かった。"
     "そこで今まで見たことも聞いたこともない本を大量に買った。"
@@ -125,7 +125,7 @@ label r_Aend1:
     "静寂を切り裂くように詩織がつぶやく。"
     koji "そうだね。"
 
-    scene black with fade
+    scene white with fade
 
     "2人は来た道を戻った。"
     "帰り道はお互いに何も話せなかった。"
@@ -170,7 +170,7 @@ label r_Aend1:
     "お持ち帰りのチョコパイですら冷えてしまうほど時間が経ってもなおである。"
     #end
 
-    scene black with fade
+    scene white with fade
 
     pause
 

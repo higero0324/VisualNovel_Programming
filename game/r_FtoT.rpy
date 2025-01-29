@@ -1,9 +1,9 @@
 label r_FtoT:
-    scene bg bookstor with dissolve
+    scene bg bookstore with dissolve
 
     koji "（これは自分で何とかしないと。）"
     
-    scene black
+    scene white
     "次の日"
     
     scene bg bookstore with fade

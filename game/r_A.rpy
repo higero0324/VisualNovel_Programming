@@ -23,7 +23,7 @@ label r_Aa:
     "それはもう素晴らしいものであった気がする。"
     "気がする..."
     hide shiori
-    scene black with fade
+    scene white with fade
     #寝る
     pause
 
@@ -37,7 +37,7 @@ label r_Aa:
     baba "かわいい寝顔ですねーーだってさ"
     "そういわれた後、あまりの紅潮のせいでまたぶっ倒れたらしい。"
     hide baba
-    scene black with fade
+    scene white with fade
     #次の日
     "次の日"
     pause
@@ -71,7 +71,7 @@ label r_Aa:
     show baba happy 
     baba"嬉しいコト言ってくれるねぇ。"
     hide baba
-    scene black with fade
+    scene white with fade
     scene bg shop with fade
     "こうして僕はカレーの材料を揃えに買い物に出た。"
     "カレーというのは肉や野菜にはじまりルーなど様々なものが要求される。"
