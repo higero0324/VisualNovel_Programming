@@ -68,7 +68,7 @@ label r_Aaabbaa:
     koji "(やはりいつも寝てしまうのは、なぜなんだろう)"
     
     menu:
-        "＞にしない":
+        "＞気にしない":
             jump r_Aend2
         "＞考察してみる":
             jump think_about_it
