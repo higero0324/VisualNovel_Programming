@@ -1,6 +1,6 @@
 label r_Aend2:
 
-    scene bg room
+    scene bg room with fade
 
     # Display the dialogue
     "難しいことは考えない方が身のためである。"
@@ -11,8 +11,9 @@ label r_Aend2:
     shiori "てーさいとには何でもそろってるから助かるわ。"
 
     # End the scene
-    scene bg black
-    with fade
+    scene black with fade
+
+    pause
 
     show Aend2 with fade
 

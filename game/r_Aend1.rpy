@@ -1,5 +1,6 @@
 label r_Aend1:
     "気づかれないように詩織の後を追った。"
+    scene bg Tsite
     show shiori at semiright
     "詩織は本の試し読みをしていた。"
     "「転生するのスランプだった件」"
@@ -77,7 +78,7 @@ label r_Aend1:
     "ばあちゃんに店を任せて2人でてーさいとに向かった。"
     "そこで今まで見たことも聞いたこともない本を大量に買った。"
 
-    scene bg root
+    scene bg root an
     show shiori
     shiori "たくさん本を読んだから疲れたでしょ。"
     show shiori
@@ -96,7 +97,7 @@ label r_Aend1:
     "後からチョコの苦みも加わり完璧なトリオへと昇華していった。"
     "三角チョコパイが三角である所以は調和のとれたこのトリオを物理的に表現したかったからではないだろうか、"
     "そうに決まっている。"
-    scene bg root
+    scene bg root an
     show shiori
 
     koji "おいしい。"
@@ -132,7 +133,7 @@ label r_Aend1:
 
     "店についてお別れの時間となった。"
     
-    scene bg front bookstore with fade
+    scene bg root an with fade
     show shiori
 
 
