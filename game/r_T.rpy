@@ -19,9 +19,9 @@ label r_T:
     show shiori happy
     shiori"また本のお話し、いっぱいしようね！！"
     koji "うん、またね"
-    show shiori at dimmed
+    show shiori at semiright
     "そういって詩織の後姿を見送るはずだった..."
-    show shiori at dimmed, right
+    show shiori at right
     "しかしなぜだろう僕の体はそれを許さなかった。"
     "いや、理由はわかっている。"
     "そして次にかける言葉も。"
@@ -29,12 +29,12 @@ label r_T:
         "好きだ!!!":
             koji"好きだ！！！"
     "詩織が振り返る。"
-    show shiori at ndimmed, right
+    show shiori at semiright
     shiori"私も好き！！！！"
     "ノータイムで帰ってきた言葉に僕はうまく反応できなかった。"
     "彼女はこうつづけた。"
     shiori"これからずっと！いろんなとこ行ったり、いろんな話したり、たっくさんしようね！！！"
-    show shiori happy at right
+    show shiori happy at semiright
     shiori"また明日！！！"
     "これが最高のTrueEndなのだと僕は思う。"
 
