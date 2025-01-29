@@ -11,7 +11,7 @@ label r_T:
     koji "あ、ごめんなんだっけ？"
     show shiori seriously
     shiori "もうこんな時間！"
-    show shiori astonished2
+    show shiori troubled
     shiori "ごめんね、帰らないと。"
     koji "あ、そうだね。"
     "僕らは店をでた。"
@@ -29,16 +29,17 @@ label r_T:
         "好きだ!!!":
             koji"好きだ！！！"
     "詩織が振り返る。"
-    show shiori at semiright
+    show shiori happy at semiright
     shiori"私も好き！！！！"
     "ノータイムで帰ってきた言葉に僕はうまく反応できなかった。"
     "彼女はこうつづけた。"
+    show shiori at semiright
     shiori"これからずっと！いろんなとこ行ったり、いろんな話したり、たっくさんしようね！！！"
     show shiori happy at semiright
     shiori"また明日！！！"
     "これが最高のTrueEndなのだと僕は思う。"
 
-    scene bg black
+    scene black
     with fade
 
     pause
